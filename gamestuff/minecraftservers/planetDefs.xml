@@ -1,124 +1,112 @@
-      <galaxy>
-            start
-             <star name="SOL" temp="100" x="0" y="0" numPlanets="3" numGasGiants="1" blackHole="False">              
-
+        <galaxy>
+            <star name="Sol" temp="100" x="0" y="0" numPlanets="4" numGasGiants="1">
+                ...
             </star>
 
+            <star name="PHOENIX A" temp="100" x="123" y="123" numPlanets="0" numGasGiants="0" blackHole="True">
 
+                <planet name="Z-15">
+                 <hasRings>true</hasRings>
+                 <orbitalDistance>200</orbitalDistance>
+                 <fogColor>#000000</fogColor>
+                 <atmosphereDensity>100</atmosphereDensity>
+                 <gravitationalMultiplier>105</gravitationalMultiplier>
 
-
-            mat
-            <star name="PHOENIX A" temp="100" x="123" y="123" numPlanets="0" numGasGiants="0" blackHole="true">
-                <star name="Centaria 12" temp="200" separation="50.0" />
-            
-                <planet name="Astroid Cluster">
-                    <genType>2</genType>
-                  <orbitalDistance>1000</orbitalDistance>
+                 <planet name="X-14">
+                 <atmosphereDensity>100</atmosphereDensity>
+                 <gravitationalMultiplier>103</gravitationalMultiplier>
                     ...
-                </planet>
-                    <planet name="Z15" customIcon="WaterWorld">
-                    <hasRings>true</hasRings>
-                    <orbitalDistance>150</orbitalDistance>
-                    <fogColor>#000000</fogColor>
-                    <atmosphereDensity>100</atmosphereDensity>
-                    <gravitationalMultiplier>105</gravitationalMultiplier>
-                    <oceanBlock>Minecraft:water</oceanBlock>
-                    <seaLevel>64</seaLevel>
-                    <artifact>hbm:sat_gerald</artifact>
-                    <artifact>hbm:dfc_core</artifact>
-                    ...
-                    <planet name="X15">
-                        ...
-                    </planet>
+                 </planet>
+                 ...
                 </planet>
 
-                     <planet name="Z12">
-                     <orbitalDistance>12</orbitalDistance>
+                <planet name="Z-11">
+                <orbitalDistance>20</orbitalDistance>
+
+                </planet>
+
+                <planet name="Z-12">
+                <orbitalDistance>50</orbitalDistance>
+
+                </planet>
+
+                <planet name="Z-13">
+                <orbitalDistance>100</orbitalDistance>
+                <hasRings>true</hasRings>
+                </planet>
+
+                <planet name="Z-16">
+                <orbitalDistance>150</orbitalDistance>
+                <genType>2</genType>
+                </planet>
+
+                <planet name="G-15">
+                <GasGiant>true</GasGiant>
+                <gas>oxygen</gas>
+                <orbitalDistance>250</orbitalDistance>
                     ...
                 </planet>
 
-                <planet name="Z13">
-                <orbitalDistance>400</orbitalDistance>
+                <planet name="G-16">
+                <GasGiant>true</GasGiant>
+                <gas>nitrogen</gas>
+                <orbitalDistance>300</orbitalDistance>
+                    ...
+                </planet>
+
+                <planet nam="G-17">
                 <GasGiant>true</GasGiant>
                 <hasRings>true</hasRings>
-                <gas>nitrogen</gas>
-                <gas>oxygen</gas>
-                ...
-                <planet name="X13">
-                ...
-                </planet>
+                <orbitalDistance>350</orbitalDistance>
                 </planet>
 
-                <planet name="Z14">
-                <orbitalDistance>450</orbitalDistance>
+          
+          
+            </star>
+
+            <star name="Nigger" temp="100" x="25" y="25" numPlanets="" numGasGiants="0" blackHole="true">
+                
+                <planet name="big black men shaking their ass">
+                <orbitalDistance>200</orbitalDistance>
+                <hasRings>true</hasRings>
+                    ...
+                </planet>
+
+                <planet name="Micro Dick">
+                <orbitalDistance>250</orbitalDistance>
+                <hasRings>true</hasRings>
+                    ...
+                </planet>
+
+                <planet name="N2">
+                <orbitalDistance>50</orbitalDistance>
+                ...
+                </planet>
+
+                <planet name="N1">
+                <orbitalDistance>100</orbitalDistance>
+                <GasGiant>true</GasGiant>
+                ...
+                </planet>
+            </star>
+
+            <star name="Centaria" temp="100" x="-123" y="-123" numPlanets="3" numGasGiants="0" blackHole="false">
+                <star name="Centaria" temp="200" separation="30" />
+                <planet name="Centaria A">
+                <orbitalDistance>300</orbitalDistance>
                 <GasGiant>true</GasGiant>
                 <gas>nitrogen</gas>
+                    ...
                 </planet>
-            </star>
 
-            eli
-<star name="Nigga" temp="100" x="25" y="-25" numPlanets="0" numGasGiants="0" blackHole="true">
-                    <planet name="N1">
-                    <GasGiant>true</GasGiant>
-                    <orbitalDistance>200</orbitalDistance>
-                    ...
-                    <planet name="big black men shaking their ass">
-                    <orbitalDistance>250</orbitalDistance>
-                    <hasRings>true</hasRings>
-                    ...
-                   <planet name="Micro Dick" DIMID="0" dimMapping="" customIcon="WaterWorld">
-                    <orbitalDistance>350</orbitalDistance>
-                    <hasRings>true</hasRings>
-                    <artifact>minecraft: minecraft:diamond </artifact>
-                     <spawnable weight="1" groupMin="1" groupMax="5">minecraft:villager</spawnable>
-                    <spawnable weight="1" groupMin="1" groupMax="5">minecraft:sheep</spawnable>
-                     ...
-                    </planet>
-
-                    <planet name="N2">
-                    <orbitalDistance>150</orbitalDistance>
-                    ...
-                    </planet>
-
-
-
-            </star>
-                    
-
+                <planet name="Centaria B">
+                <orbitalDistance>100</orbitalDistance>
+                <hasRings>true</hasRings>
+                <gas>oxygen</gas>
+                <GasGiant>true</GasGiant>
+                </planet>
 
             </star>
 
-            <star name="Noodle" temp="100" x="25" y="25" numPlanets="0" numGasGiants="0" blackHole="false">
-                    <planet name="leukemia">
-                    <GasGiant>true</GasGiant>
-                    <orbitalDistance>250</orbitalDistance>
-                    ...
-                    <planet name="Sadistic">   
-                    <orbitalDistance>50</orbitalDistance>             
-                    ...
-                    </planet>
-                    </planet>
 
-                    <planet name="erectile dysfunction">
-                    <orbitalDistance>150</orbitalDistance>
-                    ...
-                    </planet>
-
-                     <planet name="Amish Butter Churner">
-                    <orbitalDistance>200</orbitalDistance>
-                    ...
-                    </planet>
-            </star>
-
-            <star name="Centari A" temp="200" x="-25" y="25" numPlanets="0" numGasGiants="0" blackHole="false">
-            <planet name="A23">
-            <orbitalDistance>15</orbitalDistance>
-            <atmosphereDensity>1600</atmosphereDensity>
-            <gravitationalMultiplier>105</gravitationalMultiplier>
-            <rotationalPeriod>12000</rotationalPeriod>
-            <oceanBlock>Minecraft:lava</oceanBlock>
-            <seaLevel>128</seaLevel>
-            <fogColor>#FFA500</fogColor>
-            </planet>
-            </star>
         </galaxy>
