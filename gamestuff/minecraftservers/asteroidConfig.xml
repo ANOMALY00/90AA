@@ -1,0 +1,9 @@
+          <Asteroids>
+            ...
+            <asteroid name="PHOENIX A154" distance="10" mass="10000" massVariability="0.5" minLevel="0" probability="1" richness="0.8" richnessVariability="0.5">
+                <ore itemStack="minecraft:iron_ore" chance="15" />
+                <ore itemStack="minecraft:gold_ore" chance="10" />
+                <ore itemStack="material.Dilithium.name crystals" chance="10" />
+            </asteroid>
+            ...
+        </Asteroids>
