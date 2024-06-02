@@ -108,5 +108,15 @@
 
             </star>
 
+            <star name="Auschwitz" temp="100" x="123" y="-123" numPlanets="0" numGasGiants="0" blackHole="false">
+                ...
+            </star>
+
+            <star name="Niggertron" temp="100" x="-123" y="123" numPlanets="0" numGasGiants="0" blackHole="false">
+                ...
+            </star>
+
+
+
 
         </galaxy>
