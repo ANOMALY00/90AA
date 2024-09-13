@@ -3,9 +3,11 @@ body {
 }
 
 h1 {
-  color: green;
+  color: DarkRed;
   text-align: center;
 }
+
 p {
-  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
 }
