@@ -1,14 +1,16 @@
 h1 {
   text-align: center;
-  background-color: white; 
+  background-color: black; 
   border-style: double;
   border-color: black;
 }
 
 h2 {
    text-align: center;
+   background-color: black;
 }
 
 p {
   text-align: center;
+  background-color: black;
 }
